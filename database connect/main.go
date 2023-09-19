@@ -10,7 +10,7 @@ const (
   host     = "localhost"
   port     = 5432
   user     = "postgres"
-  password = "75yu4375"
+  password = "querty"
   dbname   = "flask_db"
 )
 
