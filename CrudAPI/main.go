@@ -23,7 +23,7 @@ func main() {
 	gin.SetMode(gin.ReleaseMode)
 	router := gin.Default()
 
-	// Setup route group for the API
+	// Setup route group for API
 	api := router.Group("/api")
 
 	api.POST("/order/add", controllers.OrderAdd)
